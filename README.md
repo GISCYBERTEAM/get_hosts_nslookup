@@ -2,15 +2,19 @@
 
 Скрипт для быстрого вывода перечня FQDN-имени хостов в тестируемой инфраструктуре через запросы на DNS-сервер.
 
+A script for quickly displaying a list of FQDN names of hosts in the infrastructure under test via requests to the DNS server.
+
 ## Подготовка и запуск / Preparation and launch
 
-Перед запуском предварительно необходимо выполнить команду:
+Перед запуском предварительно необходимо выполнить команду / Before launching, you must first run the command:
 
 ```
 chmod +x get_hosts_nslookup.sh
 ```
 
-После этого необходимо выполнить команду указав в качестве аргумента сеть и маску. Пример команды ниже
+После этого необходимо выполнить команду, указав в качестве аргумента сеть и маску. Пример команды ниже.
+
+After that, you must run the command, specifying the network and mask as argument. An example of the command is below.
 
 ```
 ./get_hosts_nslookup.sh 192.168.0.0/24
